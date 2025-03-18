@@ -3,3 +3,8 @@
 ################################################################################
 
 /FileSyncandWOPI/Source/Common/obj/Debug
+/.vs
+/ExchangeWebServices/Source/Common/obj/Debug
+/ExchangeWebServices/Source/MS-OXWSSYNC/.vs/MS-OXWSSYNC
+/ExchangeWebServices/Source/MS-OXWSSYNC/Adapter/obj/Debug
+/ExchangeWebServices/Source/MS-OXWSSYNC/TestSuite/obj/Debug
