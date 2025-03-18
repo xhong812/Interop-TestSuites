@@ -9829,7 +9829,7 @@
 	<ns1:Requirement>
 		<ns1:REQ_ID>MS-OXCSTOR_R94801001</ns1:REQ_ID>
 		<ns1:Doc_Sect>6</ns1:Doc_Sect>
-		<ns1:Description>[In Appendix A: Product Behavior] When the LongTermId field of the request contains zeros for the replica GUID (REPLGUID) component, the implementation does return ecNone in the ReturnValue field.  &lt;44&gt; Section 3.2.5.9:  Exchange 2007 and Exchange 2019 return ecNone if the LongTermId field of the request contains zeros for the replica GUID (REPLGUID) component..</ns1:Description>
+		<ns1:Description>[In Appendix A: Product Behavior] When the LongTermId field of the request contains zeros for the replica GUID (REPLGUID) component, the implementation does return ecNone in the ReturnValue field.  &lt;44&gt; Section 3.2.5.9:  Exchange 2007, Exchange 2016 and Exchange 2019 return ecNone if the LongTermId field of the request contains zeros for the replica GUID (REPLGUID) component..</ns1:Description>
 		<ns1:Derived>MS-OXCSTOR_R94801:I, MS-OXCSTOR_R1:i</ns1:Derived>
 		<ns1:Behavior>Product</ns1:Behavior>
 		<ns1:Scope>Both</ns1:Scope>

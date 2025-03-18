@@ -4530,7 +4530,7 @@ namespace Microsoft.Protocols.TestSuites.MS_OXCSTOR
                     0,
                     this.getIdFromLongTermIdResponse.ReturnValue,
                     94801001,
-                    @"[In Appendix A: Product Behavior] When the LongTermId field of the request contains zeros for the replica GUID (REPLGUID) component, the implementation does return ecNone in the ReturnValue field.  <44> Section 3.2.5.9:  Exchange 2007 and Exchange 2019 return ecNone if the LongTermId field of the request contains zeros for the replica GUID (REPLGUID) component.");
+                    @"[In Appendix A: Product Behavior] When the LongTermId field of the request contains zeros for the replica GUID (REPLGUID) component, the implementation does return ecNone in the ReturnValue field.  <44> Section 3.2.5.9:  Exchange 2007, Exchange 2016 and Exchange 2019 return ecNone if the LongTermId field of the request contains zeros for the replica GUID (REPLGUID) component.");
             }
 
             if (Common.IsRequirementEnabled(94801002, this.Site))
