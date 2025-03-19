@@ -1004,7 +1004,7 @@ namespace Microsoft.Protocols.TestSuites.MS_OXCSTOR
                         Site.CaptureRequirementIfIsTrue(
                             isEqual,
                             314,
-                            @"[In RopGetReceiveFolderTable ROP Success Response Buffer]  [Rows] PidTagLastModificationTime property: PidTagLastModificationTime property ([MS-OXPROPS] section 2.765) -- A PtypTime value that specifies the time, in Coordinated Universal Time (UTC), when the server created or last modified the row in the Receive folder table.");
+                            @"[In RopGetReceiveFolderTable ROP Success Response Buffer]  [Rows] PidTagLastModificationTime property: PidTagLastModificationTime property ([MS-OXPROPS] section 2.766) -- A PtypTime value that specifies the time, in Coordinated Universal Time (UTC), when the server created or last modified the row in the Receive folder table.");
                     }
                 }
                 else
@@ -1066,7 +1066,7 @@ namespace Microsoft.Protocols.TestSuites.MS_OXCSTOR
             this.Site.CaptureRequirementIfIsTrue(
                 isVerifiedR872,
                 872,
-                @"[In Receiving a RopSetReceiveFolder ROP Request] ""Message Class"" column (PidTagMessageClass property ([MS-OXPROPS] section 2.788)) - Contains a string that specifies the message class that is configured for the Receive folder.");
+                @"[In Receiving a RopSetReceiveFolder ROP Request] ""Message Class"" column (PidTagMessageClass property ([MS-OXPROPS] section 2.789)) - Contains a string that specifies the message class that is configured for the Receive folder.");
 
             // Add the debug information
             this.Site.Log.Add(LogEntryKind.Debug, "Verify MS-OXCSTOR_R59801, The MessageClass calling RopGetReceiveFolderTable ROP: {0}", returnedMyClass.Replace("\0", string.Empty));
